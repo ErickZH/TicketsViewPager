@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detalle del ticket"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/textId"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Ticket id:"/>
+
+    <TextView
+        android:id="@+id/textDescripcion"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="descripcion: "/>
+
+    <TextView
+        android:id="@+id/nombreUsuario"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Nombre usuario:"/>
+
+
+    <TextView
+        android:id="@+id/nombreDepto"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre depto:"/>
+
+    <TextView
+        android:id="@+id/nombreproceso"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Nombre proceso:"/>
+
+    <TextView
+        android:id="@+id/nombreRol"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Nombre rol:"/>
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha:"/>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Status:"/>
+
+    <TextView
+        android:id="@+id/fechaResolucion"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="fecha resolucion:"/>
+
+    <TextView
+        android:id="@+id/nombreLinea"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre Linea:"/>
+    <TextView
+        android:id="@+id/nombreEquipo"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Nombre equipo:"/>
+
+
+</LinearLayout>
